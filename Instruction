@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pancono Coin (Panno)</title>
+  <style>
+    /* Reset and base */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #0b1a33; /* dark navy blue */
+      color: #ffffff;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #142a4c;
+      border-radius: 15px;
+      padding: 30px 40px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    }
+
+    h1 {
+      color: #00d4ff;
+      font-size: 2em;
+      margin-bottom: 15px;
+    }
+
+    h2 {
+      color: #ffd700;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
+
+    ul {
+      margin-left: 20px;
+      margin-bottom: 15px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 25px;
+      margin-bottom: 10px;
+    }
+
+    .buttons a {
+      flex: 1;
+      text-align: center;
+      padding: 15px 20px;
+      background: #00d4ff;
+      color: #0b1a33;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .buttons a:hover {
+      background: #00b2cc;
+      color: #ffffff;
+      transform: scale(1.05);
+    }
+
+    .highlight {
+      color: #ffd700;
+      font-weight: bold;
+    }
+
+    .small-note {
+      font-size: 0.9em;
+      color: #aaaaaa;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 600px) {
+      .buttons {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 Welcome to Pancono Coin (Panno)!</h1>
+    <p>You're officially one of the early adopters 🎉 Don’t miss this golden chance to grab as many Panno Coins as you can.</p>
+
+    <h2>✨ How to start:</h2>
+    <p>🔘 Tap the buttons below to see if the App is working or not.</p>
+    <ul>
+      <li>If it works → create your wallet right away.</li>
+      <li>Already have private keys? → just import them.</li>
+    </ul>
+    <p>⚡ Heads up: Sometimes the app won’t respond — that’s totally normal! We keep them offline at times. But don’t worry…the <span class="highlight">backend server is always running</span> and still rewards you automatically with Panno Coins. 💰</p>
+
+    <h2>🔥 Your daily task:</h2>
+    <ul>
+      <li>Come back every day and check if the app is live and new Panno has been added to your <span class="highlight">main balance</span> or <span class="highlight">referral rewards balance</span>.</li>
+      <li>Get your invite friend link from app or bot. For every coin you earn, invite the same number of friends.</li>
+    </ul>
+    <p>👉 Example: If you’ve got 5 Panno in your balances at 'wallet bot or 10 min claim session at app', invite 5 friends. If you’ve got 20 Panno in your balances invite 20 friends. This keeps you qualified for the airdrop.</p>
+
+    <p>📢 Want to know when the App or Pancono Wallet Bot goes live? Check our official Panno Telegram Channel daily — we post the exact UTC time there ⏰.</p>
+
+    <div class="buttons">
+      <a href="https://t.me/PanconoCoin" target="_blank">Panno Telegram Channel</a>
+      <a href="https://t.me/PanconoBot" target="_blank">Wallet Bot</a>
+      <a href="https://www.youtube.com/" target="_blank">YouTube</a>
+      <a href="https://www.youtube.com/" target="_blank">Instructions</a>
+    </div>
+
+    <p class="small-note">Stay consistent and invite friends daily to maximize your Panno earnings!</p>
+  </div>
+</body>
+</html>
