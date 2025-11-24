@@ -1,131 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Pancono Coin (PANNO) – Testnet Mining & Airdrop Rewards</title>
 
   <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- SEO Meta Tags -->
-  <meta name="description" content="Mine Pancono (PANNO) testnet coins, join mainnet, earn daily airdrop rewards, and import private keys. Participate now and maximize your PANNO earnings." />
-  <meta name="keywords" content="Pancono, Panno Coin, crypto mining, testnet mining, blockchain airdrop, wallet bot, private key import, mainnet mining" />
-  <meta name="author" content="Pancono Team" />
+  <!-- AOS CSS (animations on scroll) -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
 
+  <!-- SEO meta -->
+  <meta name="description" content="Mine Pancono (PANNO) testnet coins, join mainnet, earn airdrops, import private keys." />
+  <meta name="keywords" content="Pancono,PANNO,testnet,mining,airdrop,wallet" />
+  <meta name="author" content="Pancono Team" />
 </head>
 
-<body class="bg-[#0b1a33] text-white">
+<body class="bg-[#0b1a33] text-white antialiased">
 
-  <div class="max-w-4xl mx-auto p-6 my-6 bg-[#132649] rounded-2xl shadow-2xl">
+  <div class="max-w-5xl mx-auto p-6 my-6 bg-[#132649] rounded-2xl shadow-2xl">
 
-    <!-- Hero -->
-    <h1 class="text-3xl md:text-4xl font-bold text-cyan-300 mb-5">
-      🚀 Welcome to Pancono Coin (PANNO)
-    </h1>
+    <!-- HERO -->
+    <section class="relative min-h-[80vh] flex items-center justify-center bg-[#060b18] overflow-hidden rounded-xl">
 
-    <p class="text-lg leading-relaxed mb-6">
-      You are now an early adopter of Pancono 🎉. Visit daily to check your PANNO balance, access wallet private keys, join mining events, and participate in the airdrop.
-    </p>
+      <!-- subtle animated gradient -->
+      <div class="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-purple-800/20 animate-pulse opacity-40"></div>
 
-    <!-- App Status -->
-    <h2 class="text-2xl font-bold text-yellow-300 mt-8 mb-3">✅ App Status</h2>
-    <p class="mb-4">
-      The Pancono App and Wallet Bot are currently offline. They go live every day at:
-    </p>
+      <!-- PARTICLES (position values use valid Tailwind spacing classes) -->
+      <div class="absolute inset-0 w-full h-full overflow-hidden pointer-events-none">
 
-    <p class="bg-[#0e1e3c] p-4 rounded-lg border border-cyan-300 mb-4">
-      <strong>⏰ Daily Online Time:</strong> <span class="text-cyan-300">UTC 9:02 PM</span>  
-      <br />Check the exact UTC time using the button below.
-    </p>
+        <!-- Top Layer -->
+        <div class="absolute top-10 left-5 w-3 h-3 bg-blue-400/50 rounded-full animate-ping"></div>
+        <div class="absolute top-16 left-20 w-2 h-2 bg-pink-400/40 rounded-full animate-pulse"></div>
+        <div class="absolute top-8 right-10 w-3 h-3 bg-cyan-400/50 rounded-full animate-bounce"></div>
+        <div class="absolute top-20 right-28 w-4 h-4 bg-purple-400/50 rounded-full animate-float"></div>
 
-    <p class="mb-6">
-      We keep the servers offline periodically to prevent millions of users from rushing simultaneously. Always check your UTC time or follow updates on our official Telegram channel.
-    </p>
+        <!-- Middle layer -->
+        <div class="absolute top-36 left-6 w-2 h-2 bg-yellow-300/40 rounded-full animate-pulse"></div>
+        <div class="absolute top-36 left-32 w-3 h-3 bg-red-400/40 rounded-full animate-ping"></div>
+        <div class="absolute top-36 left-1/2 w-2 h-2 bg-emerald-400/40 rounded-full animate-drift"></div>
+        <div class="absolute top-36 left-64 w-3 h-3 bg-indigo-300/40 rounded-full animate-bounce"></div>
+        <div class="absolute top-36 right-6 w-2 h-2 bg-teal-300/40 rounded-full animate-pulse"></div>
 
-    <!-- Ways to Earn PANNO -->
-    <h2 class="text-2xl font-bold text-yellow-300 mb-4">✨ Ways to Earn Pancono (PANNO)</h2>
+        <!-- Lower middle -->
+        <div class="absolute top-1/2 left-10 w-4 h-4 bg-blue-500/30 rounded-full animate-drift-slow"></div>
+        <div class="absolute top-1/2 left-32 w-2 h-2 bg-pink-500/40 rounded-full animate-ping"></div>
+        <div class="absolute top-1/2 left-1/2 w-3 h-3 bg-green-300/40 rounded-full animate-bounce"></div>
+        <div class="absolute top-1/2 left-2/3 w-2 h-2 bg-purple-300/40 rounded-full animate-pulse"></div>
+        <div class="absolute top-1/2 right-14 w-3 h-3 bg-blue-300/40 rounded-full animate-drift"></div>
 
-    <ul class="space-y-2 text-lg">
-      <li>✨ Join Testnet & Mainnet mining</li>
-      <li>✨ Claim coins from the 10-minute airdrop session</li>
-      <li>✨ Import private keys found inside the app</li>
-      <li>✨ Follow daily instructions to find more earning methods</li>
-    </ul>
+        <!-- Bottom layer -->
+        <div class="absolute bottom-36 left-6 w-2 h-2 bg-fuchsia-400/40 rounded-full animate-ping"></div>
+        <div class="absolute bottom-36 left-32 w-3 h-3 bg-lime-300/40 rounded-full animate-drift"></div>
+        <div class="absolute bottom-36 left-1/2 w-4 h-4 bg-purple-500/30 rounded-full animate-drift-slow"></div>
+        <div class="absolute bottom-36 right-10 w-2 h-2 bg-blue-300/40 rounded-full animate-pulse"></div>
+        <div class="absolute bottom-36 right-28 w-3 h-3 bg-cyan-300/40 rounded-full animate-bounce"></div>
 
-    <!-- Testnet & Mainnet -->
-    <h2 class="text-2xl font-bold text-cyan-300 mt-10 mb-4">
-      🚀 Join Mainnet & Testnet to Receive PANNO
-    </h2>
+        <!-- Lower row -->
+        <div class="absolute bottom-10 left-10 w-4 h-4 bg-pink-400/40 rounded-full animate-drift"></div>
+        <div class="absolute bottom-16 left-32 w-2 h-2 bg-teal-300/40 rounded-full animate-ping"></div>
+        <div class="absolute bottom-12 left-1/2 w-3 h-3 bg-emerald-400/40 rounded-full animate-pulse"></div>
+        <div class="absolute bottom-14 left-64 w-2 h-2 bg-blue-400/40 rounded-full animate-bounce"></div>
+        <div class="absolute bottom-20 right-12 w-4 h-4 bg-purple-400/40 rounded-full animate-drift-slow"></div>
 
-    <p class="mb-4">
-      Download the Pancono App from GitHub. Open the app → go to the mining tab → start mining. Testnet mining increases your airdrop eligibility. Mainnet mining gives real PANNO coins.
-    </p>
+        <!-- Extra glow -->
+        <div class="absolute top-24 right-40 w-5 h-5 bg-white/10 rounded-full blur-xl animate-pulse"></div>
+        <div class="absolute bottom-24 left-20 w-6 h-6 bg-white/10 rounded-full blur-xl animate-ping"></div>
+        <div class="absolute top-40 left-1/2 w-5 h-5 bg-blue-200/10 rounded-full blur-xl animate-drift"></div>
+      </div>
 
-    <p class="mb-6">
-      Watch the videos below to learn how to mine Testnet & Mainnet PANNO coins.
-    </p>
+      <!-- HERO CONTENT -->
+      <div class="relative z-10 text-center px-6">
+        <h1 class="text-4xl md:text-5xl font-extrabold text-white drop-shadow-lg" data-aos="fade-up">
+          Pancono Ecosystem
+        </h1>
 
-    <!-- Airdrop & Private Keys -->
-    <h2 class="text-2xl font-bold text-cyan-300 mb-4">
-      🚀 10-Minute Airdrop Session + Private Key Import
-    </h2>
+        <p class="mt-4 text-lg md:text-xl text-gray-300 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+          A next-generation decentralized mining & crypto network built for speed, security, and global scalability.
+        </p>
 
-    <p class="mb-6">
-      Every day the app opens for a 10-minute airdrop session. Claim coins, collect private keys, and import them into the Pancono Wallet Bot. Read full instructions for importing keys below.
-    </p>
+        <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4" data-aos="zoom-in" data-aos-delay="400">
+          <a href="#" class="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white text-lg font-semibold rounded-xl shadow-xl transition transform hover:scale-105">
+            Start Mining
+          </a>
+          <a href="#" class="px-8 py-3 bg-white/10 backdrop-blur-md border border-white/20 text-white text-lg font-semibold rounded-xl shadow-xl transition transform hover:scale-105">
+            Download Wallet
+          </a>
+        </div>
 
-    <!-- CTA Buttons -->
-    <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3 mt-8">
+        <!-- animated coin -->
+        <div class="mt-10 flex justify-center" data-aos="fade-up" data-aos-delay="700">
+          <!-- Ensure image exists at this path, or replace with absolute URL -->
+          <img src="image/imagec.png" alt="Pancono coin" class="w-44 md:w-56 animate-spin-slow opacity-95" />
+        </div>
+      </div>
+    </section>
 
-      <a href="https://www.google.com/search?q=utc+time" target="_blank"
-        class="bg-cyan-400 text-[#0b1a33] font-semibold py-3 px-4 text-center rounded-lg transition transform hover:scale-105 hover:bg-cyan-300">
-        🌍 Check UTC Time
-      </a>
+    <!-- SUPPORTING CONTENT BELOW HERO -->
+    <div class="mt-8 px-2 text-left">
+      <h2 class="text-2xl md:text-3xl font-bold text-cyan-300 mt-6">🚀 Welcome to Pancono Coin (PANNO)</h2>
 
-      <a href="https://t.me/PanconoCoin" target="_blank"
-        class="bg-cyan-400 text-[#0b1a33] font-semibold py-3 px-4 text-center rounded-lg transition hover:bg-cyan-300">
-        📢 Telegram Channel
-      </a>
+      <p class="text-lg leading-relaxed mt-4">
+        You are now an early adopter of Pancono 🎉. Visit daily to check your PANNO balance, access wallet private keys, join mining events, and participate in the airdrop.
+      </p>
 
-      <a href="https://x.com/PanconaCoin" target="_blank"
-        class="bg-cyan-400 text-[#0b1a33] font-semibold py-3 px-4 text-center rounded-lg transition hover:bg-cyan-300">
-        🐦 Twitter (X)
-      </a>
+      <h3 class="text-xl font-semibold text-yellow-300 mt-6">✅ App Status</h3>
+      <p class="mt-2">The Pancono App and Wallet Bot are currently offline. They will open at the scheduled UTC time shown below.</p>
 
-      <a href="https://t.me/PanconoBot" target="_blank"
-        class="bg-cyan-400 text-[#0b1a33] font-semibold py-3 px-4 text-center rounded-lg transition hover:bg-cyan-300">
-        🤖 Wallet Bot
-      </a>
+      <div class="bg-[#0e1e3c] p-4 rounded-lg border border-cyan-300 mt-4 inline-block">
+        <strong>⏰ Today Time:</strong> <span class="text-cyan-300">UTC 9:02 PM</span>
+      </div>
 
-      <a href="https://chaserod.github.io/Pancono-Site/" target="_blank"
-        class="bg-cyan-400 text-[#0b1a33] font-semibold py-3 px-4 text-center rounded-lg transition hover:bg-cyan-300">
-        📘 Instructions
-      </a>
+      <h3 class="text-xl font-semibold text-cyan-300 mt-6">✨ Ways to Earn PANNO</h3>
+      <ul class="list-disc ml-6 mt-2 space-y-1">
+        <li>Join Testnet & Mainnet mining</li>
+        <li>Claim coins from 10-minute airdrop sessions</li>
+        <li>Import private keys found in the app</li>
+        <li>Invite friends via the Wallet Bot to increase eligibility</li>
+      </ul>
 
-      <a href="https://youtu.be/JeepuB2GJ-c?si=ePDK2R_AI4HSIYuZ" target="_blank"
-        class="bg-cyan-400 text-[#0b1a33] font-semibold py-3 px-4 text-center rounded-lg transition hover:bg-cyan-300">
-        📥 Submit Wallet_0.dat
-      </a>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
+        <a href="https://www.google.com/search?q=utc+time" target="_blank" class="bg-cyan-400 text-[#0b1a33] font-semibold py-3 px-4 text-center rounded-lg hover:bg-cyan-300 transition">
+          🌍 Check UTC Time
+        </a>
+        <a href="https://t.me/PanconoCoin" target="_blank" class="bg-cyan-400 text-[#0b1a33] font-semibold py-3 px-4 text-center rounded-lg hover:bg-cyan-300 transition">
+          📢 Telegram Channel
+        </a>
+        <a href="https://t.me/PanconoBot" target="_blank" class="bg-cyan-400 text-[#0b1a33] font-semibold py-3 px-4 text-center rounded-lg hover:bg-cyan-300 transition">
+          🤖 Wallet Bot
+        </a>
+      </div>
 
-      <a href="https://youtu.be/-cq6h_hmiG8?si=bIt8TGcYTz0OmB-3" target="_blank"
-        class="bg-cyan-400 text-[#0b1a33] font-semibold py-3 px-4 text-center rounded-lg transition hover:bg-cyan-300">
-        ⛏️ How to Mine Testnet
-      </a>
-
-      <a href="https://chaserod.github.io/pancono-site-earnings/" target="_blank"
-        class="bg-cyan-400 text-[#0b1a33] font-semibold py-3 px-4 text-center rounded-lg transition hover:bg-cyan-300">
-        💰 Testnet & Mainnet Info
-      </a>
-
+      <p class="text-gray-300 mt-8">💡 Tip: Stay active daily. Mine coins, collect private keys, and invite friends to boost your airdrop rewards.</p>
     </div>
-
-    <!-- Footer Note -->
-    <p class="text-gray-300 mt-10 text-lg">
-      💡 <strong>Tip:</strong> Stay active daily. Mine coins, collect private keys, and invite friends to boost your airdrop rewards.
-    </p>
-
   </div>
 
+  <!-- anim + AOS scripts -->
+  <script>
+    // small helper custom classes (if tailwind doesn't already add them)
+    // spin-slow is defined below via style tag
+  </script>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 900, once: true, easing: 'ease-out-cubic' });
+  </script>
+
+  <!-- Custom animations -->
+  <style>
+    @keyframes spin-slow { 0% { transform: rotateY(0deg); } 100% { transform: rotateY(360deg); } }
+    .animate-spin-slow { animation: spin-slow 8s linear infinite; }
+
+    @keyframes drift { 0%,100%{transform:translateY(0) translateX(0);}50%{transform:translateY(-8px) translateX(6px);} }
+    @keyframes drift-slow { 0%,100%{transform:translateY(0) translateX(0);}50%{transform:translateY(12px) translateX(-8px);} }
+    @keyframes float { 0%,100%{transform:translateY(0);}50%{transform:translateY(-8px);} }
+    .animate-drift { animation: drift 6s ease-in-out infinite; }
+    .animate-drift-slow { animation: drift-slow 10s ease-in-out infinite; }
+    .animate-float { animation: float 4s ease-in-out infinite; }
+  </style>
 </body>
 </html>
